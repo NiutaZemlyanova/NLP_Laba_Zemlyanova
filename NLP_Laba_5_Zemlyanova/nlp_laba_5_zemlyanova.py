@@ -43,5 +43,5 @@ def load_tokenizer_and_model(model_name_or_path):
 
 # Запуск
 tok, model = load_tokenizer_and_model("sberbank-ai/rugpt3large_based_on_gpt2")
-generated = generate(model, tok, "Держа в руках замерзшего щенка, я плакал. Любить животных бывает так невыносимо больно. Если это не ваш питомец, это не", num_beams=10)
+generated = generate(model, tok, "Многие семьи не могут позволить себе дорогостоящее лечение. Существуют различные фонды. Если это не ваш ребенок, это не", num_beams=10)
 print(generated[0])
